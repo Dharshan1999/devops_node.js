@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #fff;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
